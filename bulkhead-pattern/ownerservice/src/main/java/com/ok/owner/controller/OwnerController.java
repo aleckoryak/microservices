@@ -1,5 +1,6 @@
 package com.ok.owner.controller;
 
+import com.ok.dto.OwnerDto;
 import com.ok.owner.service.OwnerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
 import java.util.logging.Logger;
 
 @RestController
@@ -17,15 +19,15 @@ public class OwnerController {
     private OwnerService ownerService;
 
     @GetMapping
-    public String getAllOwners() throws InterruptedException {
+    public List<OwnerDto> getAllOwners() throws InterruptedException {
         logger.info(">>OwnerController>>getAllOwners");
         Thread.sleep(100);
-        return ownerService.getAllOwners().toString();
+        return ownerService.getAllOwners();
     }
 
     @GetMapping("/{ownerId}")
-    public String getOwnerById(@PathVariable int ownerId) {
+    public OwnerDto getOwnerById(@PathVariable int ownerId) {
         logger.info(">>OwnerController>>getOwnerById");
-        return ownerService.getOwnerById(ownerId).toString();
+        return ownerService.getOwnerById(ownerId);
     }
 }

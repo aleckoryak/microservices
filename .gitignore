@@ -1,3 +1,3 @@
 /.idea/
-/dto.iml
-/bulkhead-pattern/OwnerService/target/
+/*.iml
+/bulkhead-pattern/*/target/

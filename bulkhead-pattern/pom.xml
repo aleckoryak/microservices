@@ -10,8 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>dto</module>
-        <module>OwnerService</module>
-        <module>DogService</module>
+        <module>ownerservice</module>
+        <module>dogservice</module>
     </modules>
 
     <parent>

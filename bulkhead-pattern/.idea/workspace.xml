@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfdfdbe4-0539-42ed-b644-84278e021b2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DogService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dogservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DogService/src/main/java/com/ok/dog/DogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dogservice/src/main/java/com/ok/dog/DogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DogService/src/main/java/com/ok/dog/controller/DogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dogservice/src/main/java/com/ok/dog/controller/DogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DogService/src/main/java/com/ok/dog/service/DogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dogservice/src/main/java/com/ok/dog/service/DogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DogService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dogservice/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwnerService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/java/com/ok/OwnerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/java/com/ok/OwnerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/java/com/ok/owner/controller/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/java/com/ok/owner/controller/OwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/java/com/ok/owner/entity/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/java/com/ok/owner/entity/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/java/com/ok/owner/service/DogServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/java/com/ok/owner/service/DogServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/java/com/ok/owner/service/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/java/com/ok/owner/service/OwnerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "aleckoryak"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aleckoryak/microservices.git",
+    "accountId": "df33ab69-e19e-4782-8e2d-b99c40338011"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2tUiiOleW9JBT1WNFI92ZpUDurQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.bulkhead-pattern [clean].executor": "Run",
+    "Maven.bulkhead-pattern [compile].executor": "Run",
+    "Maven.bulkhead-pattern [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.DogServiceApplication.executor": "Run",
+    "Spring Boot.OwnerServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.OwnerServiceApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="dogservice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="dogservice" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dogservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ok.dog.DogServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ok.dog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ownerservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ok.OwnerServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OwnerServiceApplication" />
+        <item itemvalue="Spring Boot.DogServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28390b856d98-intellij.indexing.shared.core-IU-251.18673.35" />
+        <option value="bundled-js-predefined-d6986cc7102b-4027fba43365-JavaScript-IU-251.18673.35" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfdfdbe4-0539-42ed-b644-84278e021b2a" name="Changes" comment="" />
+      <created>1740413181788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740413181788</updated>
+      <workItem from="1740413182800" duration="924000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

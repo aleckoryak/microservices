@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bulkhead-pattern-dto-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dto/target/bulkhead-pattern-dto-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

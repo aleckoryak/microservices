@@ -9,7 +9,7 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>DogService</artifactId>
+    <artifactId>bulkhead-pattern-dog-service</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -23,7 +23,7 @@
         </dependency>
         <dependency>
             <groupId>com.ok</groupId>
-            <artifactId>dto</artifactId>
+            <artifactId>bulkhead-pattern-dto</artifactId>
             <version>1.0</version>
         </dependency>
     </dependencies>

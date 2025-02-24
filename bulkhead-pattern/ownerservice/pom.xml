@@ -9,7 +9,7 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>OwnerService</artifactId>
+    <artifactId>bulkhead-pattern-owner-service</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -36,7 +36,7 @@
         </dependency>
         <dependency>
             <groupId>com.ok</groupId>
-            <artifactId>dto</artifactId>
+            <artifactId>bulkhead-pattern-dto</artifactId>
             <version>1.0</version>
         </dependency>
 
