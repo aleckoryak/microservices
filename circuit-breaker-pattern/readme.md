@@ -75,7 +75,7 @@ resilience4j.circuitbreaker:
       failureRateThreshold: 50
       eventConsumerBufferSize: 10
 ```
-3 @Bulckhead
+3. @CircuitBreaker
 ```java
     @CircuitBreaker(name = "dogService", fallbackMethod = "onError")
 public List<DogDto> getDogsByOwnerId(int ownerId){
