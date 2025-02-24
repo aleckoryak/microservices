@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+actor User as user
+participant "Owner Service" as OwnerService
+participant "Dog Service" as DogService
+
+' Adding notes about service configuration
+note right of OwnerService
+  Max Tomcat Threads: 15
+  Bulkhead Config:
+  - Max Concurrent Calls: 20
+end note
+
+
+
+' Indicate REST API call:
+user -> OwnerService: REST API - getAllOwners()
+activate OwnerService
+OwnerService --> user: List<Owner>
+deactivate OwnerService
+
+' Indicate the REST API call with note:
+user -> OwnerService: REST API - getOwnerById(id)
+activate OwnerService
+note right of OwnerService
+Fetching owner by ID via REST API
+  Bulkhead Config:
+  - Max Concurrent Calls: 10
+  - Max Wait Duration: 10ms
+end note
+OwnerService -> DogService: REST API - getDogsByOwner(ownerId)
+activate DogService
+note right of DogService: Fetching dogs related to owner via REST API
+DogService --> OwnerService: List<Dogs>
+deactivate DogService
+OwnerService --> user: Owner
+deactivate OwnerService
+
+' Indicate REST API in method name:
+user -> DogService: REST API - getAllDogs()
+activate DogService
+DogService --> user: List<Dog>
+deactivate DogService
+
+@enduml
