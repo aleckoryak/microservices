@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @Service
@@ -26,7 +27,7 @@ public class DogServiceClient {
     }
 
     public List<DogDto> getDefault(int ownerId,Throwable throwable){
-        logger.info(">>DogServiceClient>>BULKHEAD>>default");
+        logger.log(Level.SEVERE, ">>DogServiceClient>>BULKHEAD>>default");
         return Collections.emptyList();
     }
 }

@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfdfdbe4-0539-42ed-b644-84278e021b2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DogService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dogservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DogService/src/main/java/com/ok/dog/DogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dogservice/src/main/java/com/ok/dog/DogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DogService/src/main/java/com/ok/dog/controller/DogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dogservice/src/main/java/com/ok/dog/controller/DogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DogService/src/main/java/com/ok/dog/service/DogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dogservice/src/main/java/com/ok/dog/service/DogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DogService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dogservice/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OwnerService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/java/com/ok/OwnerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/java/com/ok/OwnerServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/java/com/ok/owner/controller/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/java/com/ok/owner/controller/OwnerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/java/com/ok/owner/entity/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/java/com/ok/owner/entity/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/java/com/ok/owner/service/DogServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/java/com/ok/owner/service/DogServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/java/com/ok/owner/service/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/java/com/ok/owner/service/OwnerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OwnerService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ownerservice/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bfdfdbe4-0539-42ed-b644-84278e021b2a" name="Changes" comment="name convention" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,11 +116,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740413181788</updated>
-      <workItem from="1740413182800" duration="924000" />
+      <workItem from="1740413182800" duration="1747000" />
     </task>
+    <task id="LOCAL-00001" summary="name convention">
+      <option name="closed" value="true" />
+      <created>1740414210025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740414210025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="name convention" />
+    <option name="LAST_COMMIT_MESSAGE" value="name convention" />
   </component>
 </project>
